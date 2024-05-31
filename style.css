@@ -8,6 +8,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 71px 99px 101px 99px; 
+    height: 30px;
 }
 
 nav ul {
@@ -22,6 +23,7 @@ nav ul {
 nav li:hover {
     color: grey;
     cursor: pointer;
+    font-size: 14px;
 }
 
 main {
@@ -29,14 +31,31 @@ main {
 }
 section {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-direction: row;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+}
+
+section img {
+    width: 401px;
+    height: 283px;
 }
 
 section h1 {
+    margin: 0px auto 59px auto;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 40px;
+    font-family: 'JetBrains Mono', sans-serif;
+    text-align: center;
 }
+
+section p {
+    text-align: center;
+    color: #C2C2C2;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+section span {
+    color: #00BFA6;
+}
+
